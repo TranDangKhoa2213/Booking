@@ -1,0 +1,322 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #f65e39;
+	text-decoration: none;
+}
+
+.mid-content{
+	margin-left: 450px;
+}
+
+.mid-content a{
+	padding: 0px 25px;
+	font-weight: bold;
+}
+
+.img-icon-national{
+	margin: 10px 10px;
+	width: 25px;
+}
+
+.btn.btn-secondary.dropdown-toggle.dropNational{
+	background-color: inherit; outline: none; border:none; color: black;
+}
+.dropdown.national{
+	display: inline;
+}
+
+.box-search-form{
+	width: 1400px; margin-top:10px;
+}
+
+.content-index{
+	margin: 150px 100px;	
+}
+
+.card.category-room{
+	width: 250px;
+}
+
+.card.location{
+	width: 250px;
+	border:none;
+	position: relative;
+}
+
+.card.location img{
+border-radius: 5px;
+}
+
+.name-location{
+	position: absolute;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	padding: 250px 25px;
+}
+
+.name-location a{
+
+	color: white;
+	
+}
+
+.card.room{
+	position: relative;
+	width: 250px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.card.room:hover{
+	  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card.location:hover{
+	  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card.category-room:hover{
+	  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.badge.badge-pill.badge-danger.sale-value{
+	width: 50px;
+	position: absolute;
+	margin: 10px;
+}
+
+.my-ft{
+	background-color: #2d3246;
+	width: 100%;
+	margin: 0;
+	height: 300px;
+	color:white;
+}
+
+.row.footer-sns i{
+	font-size: 55px;
+	padding: 0px 20px;
+}
+
+.col-1.contact i{
+	margin: 10px;
+	font-size: 45px;
+}
+
+.col.content-contact h5{
+	padding: 20px 10px;
+}
+
+.login-form{
+	width: 600px;
+	height: 450px;
+	margin: 200px 500px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.title-login h2{
+	margin: 30px 200px;
+}
+.login-with-sns{
+	margin: 10px 70px;
+}
+.login-sns{
+	border-radius: 10px;
+	color: white;
+	padding: 10px 20px;
+}
+.login-sns:hover{
+
+	color: white;
+
+}
+.login-sns.fb{
+	background-color: #1c2ec9;
+	margin-right: 10px;
+}
+
+.login-sns.gg{
+	background-color: #c91f1c;
+}
+
+.content-form-login{
+	padding: 30px 70px;	
+}
+
+.login-form.register{
+	height: 1200px;
+}
+
+.content-form-login label{
+	font-weight: bold;
+}
+
+.item.img-room{
+	width: 500px;
+	border-right: 10px solid black;
+}
+
+.avatar-user-comment{
+	width: 55px;
+	height: 55px;
+	border-radius: 50px;
+}
+
+.col-comment-user{
+	background-color: #ebede8;
+	border-radius: 15px;
+	height: 50px;
+	width: 700px;
+	margin: 0px 0px;
+}
+
+.col-comment-user p{
+padding: 10px;
+}
+
+.content-profile-room{
+	width: 365px;
+	  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		border-radius: 20px;
+		height: 450px;
+}
+
+.input-group.mb-3 label{
+	padding: 5px 20px;
+	font-weight: bold
+}
+
+.avatar-host{
+	margin: 10px 20px;
+	width: 55px;
+	height: 55px;
+	border-radius: 50px;
+}
+
+#btn-book-room{
+	width: 200px;
+
+}
+
+.fw-b{
+	font-weight: bold;
+}
+
+.container-checkout-list {
+  margin-top:30px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container-checkout-list input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container-checkout-list:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container-checkout-list input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container-checkout-list input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container-checkout-list .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.btn.btn-dark.btn-checkout{
+	margin: 30px 150px;
+	width: 200px;
+	height: 70px;
+	font-size: 30px;
+}
+
+.fl-right{
+	float: right;
+}
+
+
+.navbar-dashboard {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  margin-top:80px;
+}
+
+.navbar-dashboard a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-dashboard a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.content-dashboard{
+	background-color: #f7f7f7;
+	margin:150px 150px;
+	width: 1150px;
+	max-height: 1000px;
+}
+
+.content-comment{
+	background-color: #ccc;
+	
+}
